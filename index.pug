@@ -1,0 +1,557 @@
+doctype html
+html(lang="en")
+      head
+            meta(charset="utf-8")
+            meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+            meta(http-equiv="X-UA-Compatible", content="ie=edge")
+            meta(name="description", content="Hi, I’m M.Zayn , I'm a Web Developer")
+            link(rel="shortcut icon", href="imgs/icon/m2.jpg")
+            title M.Zayn
+            link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+            link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css")
+            link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css")
+            link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css")
+            link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css")
+            link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css")
+            link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.8.1/css/all.css", integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf", crossorigin="anonymous")
+            link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto')
+            link(rel="stylesheet", href="css/style.css")
+      
+        
+        
+            nav.navbar.navbar-fixed-top
+              .container
+                // Brand and toggle get grouped for better mobile display
+                .navbar-header
+                  button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#collapse' aria-expanded='false')
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                  a.navbar-brand(href='#') MoGo
+                // Collect the nav links, forms, and other content for toggling
+                #collapse.collapse.navbar-collapse
+                  ul.nav.navbar-nav
+                  ul.nav.navbar-nav.navbar-right
+                    li
+                      a.active(href='#', data-nav="about")
+                        | About
+                        span.sr-only (current)
+                    li
+                      a(href='#', data-nav="service") Service
+                    li
+                      a(href='#', data-nav="work") Work
+                    li
+                      a(href='#', data-nav="blog") Blog
+                    li
+                      a(href='#', data-nav="contact") Contact
+                    li
+                      a(href='#')
+                        i.fa.fa-shopping-cart(aria-hidden='true')
+                    li
+                      a(href='#')
+                        i.fa.fa-search(aria-hidden='true')
+                // navbar-collapse
+              // container-fluid
+            // End The Navbar
+            header.text-center
+              .container
+                .row
+                  .content
+                    h3.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='4s') Creative Template
+                    h1.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='4.25s')
+                      | Welcome
+                      br
+                      |  To Mogo
+                    button.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='4.5s') Learn More
+                  .col-sm-3.hidden-xs.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='4s')
+                    .prog-bar
+                      .prog
+                    h4 01 Intro
+                  .col-sm-3.hidden-xs.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='4.25s')
+                    .prog-bar
+                    h4 02 Work
+                  .col-sm-3.hidden-xs.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='4.5s')
+                    .prog-bar
+                    h4 03 About
+                  .col-sm-3.hidden-xs.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='4.75s')
+                    .prog-bar
+                    h4 04 Contacts
+                // End Of Row
+              // End Of Container
+            // End Of Header
+            section.about-us.text-center#about.block
+              .container
+                .row
+                  h3.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') What We Do
+                  h1.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s') Story About Us
+                  p.lead.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    .image
+                      img.img-responsive(src='imgs/about-us/img1.jpg' alt='')
+                      .overlay
+                        h3 Details
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    .image
+                      img.img-responsive(src='imgs/about-us/img2.jpg' alt='')
+                      .overlay
+                        h3 Details
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    .image
+                      img.img-responsive(src='imgs/about-us/img3.jpg' alt='')
+                      .overlay
+                        h3 Details
+                // End Of Row
+              // End Of Container
+            // End Of About-Us
+            section.statis.text-center
+              .container
+                .row
+                  .col-sm-2.col-sm-offset-1.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    p.timer(data-from='0' data-to='64' data-speed='3000') 42
+                    span Projects
+                  .col-sm-2.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    p.timer(data-from='0' data-to='223' data-speed='3000') 123
+                    span Happy Client
+                  .col-sm-2.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    p.timer(data-from='0' data-to='97' data-speed='3000') 15
+                    span Award Winner
+                  .col-sm-2.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.75s')
+                    p.timer(data-from='0' data-to='148' data-speed='3000') 99
+                    span Cup Of Coffee
+                  .col-sm-2.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='1s')
+                    p.timer(data-from='0' data-to='84' data-speed='3000') 24
+                    span Members
+                // End Of Row
+              // End Of Container
+            // End Of Statis
+            section.service.text-center#service.block
+              .container
+                .row
+                  h3.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') What We Do
+                  h1.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s') Amazing Services
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    .serv-box
+                      i.fa.fa-cogs(aria-hidden='true')
+                      h4 Digital
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    .serv-box
+                      i.fa.fa-cube(aria-hidden='true')
+                      h4 Photography
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    .serv-box
+                      i.fa.fa-desktop(aria-hidden='true')
+                      h4 Web Design
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    .serv-box
+                      i.fa.fa-code(aria-hidden='true')
+                      h4 Creativity
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    .serv-box
+                      i.fa.fa-cloud(aria-hidden='true')
+                      h4 SEO
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    .serv-box
+                      i.fa.fa-bar-chart(aria-hidden='true')
+                      h4 Html/Css
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+                // End Of Row
+              // End Of Container
+            // End OF Service
+            section.design.text-center
+              .overlay-design
+                h3.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') For All Devices
+                h1.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s') Unique Design
+                img.img-responsive.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s' src='imgs/design/img3.png' alt='')
+                img.img-responsive.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s' src='imgs/design/img2.png' alt='')
+              // End Of Overlay-Design
+            // End Of Design
+            section.we-do
+              .container
+                .row
+                  h3.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') Service
+                  h1.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s') What We Do
+                  p.text-center.lead.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  .col-md-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    img.img-responsive(src='imgs/we-do/img.jpg' alt='')
+                  .col-md-6.wow.fadeInUp
+                    #accordion.panel-group(role='tablist' aria-multiselectable='true')
+                      .panel.panel-default.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                        #headingOne.panel-heading(role='tab')
+                          h4.panel-title
+                            a(role='button' data-toggle='collapse' data-parent='#accordion' href='#collapseOne' aria-expanded='true' aria-controls='collapseOne')
+                              i.fa.fa-camera-retro(aria-hidden='true')
+                              | Photography
+                        #collapseOne.panel-collapse.collapse.in(role='tabpanel' aria-labelledby='headingOne')
+                          .panel-body
+                            | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.
+                      .panel.panel-default.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                        #headingTwo.panel-heading(role='tab')
+                          h4.panel-title
+                            a.collapsed(role='button' data-toggle='collapse' data-parent='#accordion' href='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo')
+                              i.fa.fa-sliders(aria-hidden='true')
+                              | Creativity
+                        #collapseTwo.panel-collapse.collapse(role='tabpanel' aria-labelledby='headingTwo')
+                          .panel-body
+                            | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.
+                      .panel.panel-default.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                        #headingThree.panel-heading(role='tab')
+                          h4.panel-title
+                            a.collapsed(role='button' data-toggle='collapse' data-parent='#accordion' href='#collapseThree' aria-expanded='false' aria-controls='collapseThree')
+                              i.fa.fa-bullseye(aria-hidden='true')
+                              | Web Design
+                        #collapseThree.panel-collapse.collapse(role='tabpanel' aria-labelledby='headingThree')
+                          .panel-body
+                            | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.
+                // End Of Row
+              // End Of Container
+            // End Of We-Do
+            section.team#work.block
+              .container
+                .row
+                  h3.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') Who We Are
+                  h1.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s') Meet Our Team
+                  p.lead.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    .member
+                      .card
+                        .front
+                          i.fa.fa-share-alt(aria-hidden='true')
+                        .back
+                          h4 M.Zayn
+                          i.fa.fa-link(aria-hidden='true')
+                          p UI Developer
+                      img.img-responsive(src='imgs/team/img1.jpg' alt='')
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    .member
+                      .card
+                        .front
+                          i.fa.fa-share-alt(aria-hidden='true')
+                        .back
+                          h4 M.Zayn
+                          i.fa.fa-link(aria-hidden='true')
+                          p UI Developer
+                      img.img-responsive(src='imgs/team/img2.jpg' alt='')
+                  .col-sm-4.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    .member
+                      .card
+                        .front
+                          i.fa.fa-share-alt(aria-hidden='true')
+                        .back
+                          h4 M.Zayn
+                          i.fa.fa-link(aria-hidden='true')
+                          p UI Developer
+                      img.img-responsive(src='imgs/team/img3.jpg' alt='')
+                // End Of Row
+              // End Of Container
+            // End Of Team
+            section.sponsors
+              .container
+                .row
+                  .col-sm-2.col-xs-4.sponsor.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    img.img-responsive(src='imgs/sponsor/img1.png' alt='')
+                  .col-sm-2.col-xs-4.sponsor.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    img.img-responsive(src='imgs/sponsor/img2.png' alt='')
+                  .col-sm-2.col-xs-4.sponsor.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    img.img-responsive(src='imgs/sponsor/img3.png' alt='')
+                  .col-sm-2.col-xs-4.sponsor.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    img.img-responsive(src='imgs/sponsor/img4.png' alt='')
+                  .col-sm-2.col-xs-4.sponsor.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    img.img-responsive(src='imgs/sponsor/img5.png' alt='')
+                  .col-sm-2.col-xs-4.sponsor.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    img.img-responsive(src='imgs/sponsor/img6.png' alt='')
+                // End Of Row
+              // End Of Container
+            // End Of Sponsors
+            section.our-work.text-center
+              .container
+                .row
+                  h3.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') What We Do
+                  h1.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s') Some Of Our Work
+                  p.lead.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  .col-md-3.col-sm-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    .image
+                      .overlay
+                        .details
+                          h3 Project Name
+                          i.fa.fa-link(aria-hidden='true')
+                      img.img-responsive(src='imgs/work/img1.jpg' width='100%' alt='')
+                  .col-md-3.col-sm-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    .image
+                      .overlay
+                        .details
+                          h3 Project Name
+                          i.fa.fa-link(aria-hidden='true')
+                      img.img-responsive(src='imgs/work/img2.jpg' width='100%' alt='')
+                  .col-md-3.col-sm-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    .image
+                      .overlay
+                        .details
+                          h3 Project Name
+                          i.fa.fa-link(aria-hidden='true')
+                      img.img-responsive(src='imgs/work/img3.jpg' width='100%' alt='')
+                  .col-md-3.col-sm-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.75s')
+                    .image
+                      .overlay
+                        .details
+                          h3 Project Name
+                          i.fa.fa-link(aria-hidden='true')
+                      img.img-responsive(src='imgs/work/img4.jpg' width='100%' alt='')
+                  .col-md-3.col-sm-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    .image
+                      .overlay
+                        .details
+                          h3 Project Name
+                          i.fa.fa-link(aria-hidden='true')
+                      img.img-responsive(src='imgs/work/img5.jpg' width='100%' alt='')
+                  .col-md-3.col-sm-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    .image
+                      .overlay
+                        .details
+                          h3 Project Name
+                          i.fa.fa-link(aria-hidden='true')
+                      img.img-responsive(src='imgs/work/img6.jpg' width='100%' alt='')
+                  .col-md-3.col-sm-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    .image
+                      .overlay
+                        .details
+                          h3 Project Name
+                          i.fa.fa-link(aria-hidden='true')
+                      img.img-responsive(src='imgs/work/img7.jpg' width='100%' alt='')
+                  .col-md-3.col-sm-6.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.75s')
+                    .image
+                      .overlay
+                        .details
+                          h3 Project Name
+                          i.fa.fa-link(aria-hidden='true')
+                      img.img-responsive(src='imgs/work/img1.jpg' width='100%' alt='')
+                // End Of Row
+              // End Of Container
+            // End Of Our-Work
+            section.testimonials.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+              .container
+                .row
+                  .carousel.slide.hidden-xs(id='' data-ride='carousel')
+                    // Wrapper for slides
+                    .carousel-inner
+                      .item.active
+                        .col-xs-3
+                          .photo
+                            img(src='imgs/slider/img.jpg' alt='')
+                        .col-xs-9
+                          .details
+                            q
+                              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                            h3 M.Zayn
+                      .item
+                        .col-xs-3
+                          .photo
+                            img(src='imgs/slider/img.jpg' alt='')
+                        .col-xs-9
+                          .details
+                            q
+                              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                            h3 M.Zayn
+                      .item
+                        .col-xs-3
+                          .photo
+                            img(src='imgs/slider/img.jpg' alt='')
+                        .col-xs-9
+                          .details
+                            q
+                              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                            h3 M.Zayn
+                    // Left and right controls
+                    a.left.carousel-control(href='#myCarousel' data-slide='prev')
+                      span.glyphicon.glyphicon-chevron-left
+                    a.right.carousel-control(href='#myCarousel' data-slide='next')
+                      span.glyphicon.glyphicon-chevron-right
+                  // End Of Slider
+                // End of Row
+              // End Of Container
+            // End Of Carousel
+            section.clients
+              .clients-overlay
+                .container
+                  .row
+                    h3.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') Happy Clients
+                    h1.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s') What People Say
+                    .col-sm-6.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                      .image.col-sm-4.col-xs-2
+                        img.img-responsive(src='imgs/clients/img1.jpg' alt='')
+                      .content.col-sm-8.col-xs-10
+                        h3 M.Zayn
+                        span UI Developer
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                    .col-sm-6.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                      .image.col-sm-4.col-xs-2
+                        img.img-responsive(src='imgs/clients/img2.jpg' alt='')
+                      .content.col-sm-8.col-xs-10
+                        h3 M.Zayn
+                        span UI Developer
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                    .col-sm-6.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                      .image.col-sm-4.col-xs-2
+                        img.img-responsive(src='imgs/clients/img3.jpg' alt='')
+                      .content.col-sm-8.col-xs-10
+                        h3 M.Zayn
+                        span UI Developer
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                    .col-sm-6.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                      .image.col-sm-4.col-xs-2
+                        img.img-responsive(src='imgs/clients/img4.jpg' alt='')
+                      .content.col-sm-8.col-xs-10
+                        h3 M.Zayn
+                        span UI Developer
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+                  // End Of Row
+                // End Of Container
+              // End Of Overlay
+            // End Of Clients
+            section.blog#blog.block
+              .container
+                .row
+                  h3.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') Our Stories
+                  h1.text-center.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s') Latest Blog
+                  .col-sm-4.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    div
+                      .image
+                        img.img-responsive(src='imgs/blog/img1.jpg' alt='')
+                        .date
+                          p 15
+                          p March
+                      .info
+                        a(href='#') Lorem ipsum dolor sit amet.
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  .col-sm-4.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    div
+                      .image
+                        img.img-responsive(src='imgs/blog/img2.jpg' alt='')
+                        .date
+                          p 15
+                          p March
+                      .info
+                        a(href='#') Lorem ipsum dolor sit amet.
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  .col-sm-4.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    div
+                      .image
+                        img.img-responsive(src='imgs/blog/img3.jpg' alt='')
+                        .date
+                          p 15
+                          p March
+                      .info
+                        a(href='#') Lorem ipsum dolor sit amet.
+                        p
+                          | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                // End Of Row
+              // End Of Container
+            // End Of Blog
+            section.map.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+              .container-fluid#contact.block
+                .row
+                  iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54695.30826974831!2d31.41785926867698!3d31.041381421665935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79db7a9053547%3A0xf8dab3bbed766c97!2z2KfZhNmF2YbYtdmI2LHYqdiMINin2YTZhdmG2LXZiNix2KkgKNmC2LPZhSAyKdiMINin2YTZhdmG2LXZiNix2KnYjCDYp9mE2K_ZgtmH2YTZitip!5e0!3m2!1sar!2seg!4v1512041385852' width='100%' height='250' frameborder='0' style='border:0' allowfullscreen='')
+            footer
+              .container
+                .row
+                  .col-md-4.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s')
+                    .details
+                      h1 Mogo
+                      p
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      span
+                        strong 15K
+                        |  Flowers
+                    .follow-us
+                      span
+                        strong Follow Us:
+                      i.fab.fa-facebook(aria-hidden='true' title='facebook')
+                      i.fab.fa-google-plus(aria-hidden='true' title='google-plus')
+                      i.fab.fa-twitter(aria-hidden='true' title='twitter')
+                      i.fab.fa-instagram(aria-hidden='true' title='instagram')
+                      i.fab.fa-pinterest-p(aria-hidden='true' title='pinterest')
+                      i.fab.fa-youtube-play(aria-hidden='true' title='youtube')
+                      i.fab.fa-dribbble(aria-hidden='true' title='dribbble')
+                      form.form-inline
+                        input.form-control.input-lg.pull-left(type='text' name='' value='' placeholder='Type Your E-Mail')
+                        button.btn.btn-lg(type='button' name='button') Subscribe
+                  .col-md-4.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.25s')
+                    h3 Blogs
+                    .media
+                      a(href='#')
+                        img.pull-left(src='imgs/ftr-blogs/img1.jpg' alt='')
+                      .media-body
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        span Jun 9, 2016
+                    .media
+                      a(href='#')
+                        img.pull-left(src='imgs/ftr-blogs/img2.jpg' alt='')
+                      .media-body
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        span Jun 9, 2016
+                    .media
+                      a(href='#')
+                        img.pull-left(src='imgs/ftr-blogs/img3.jpg' alt='')
+                      .media-body
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        span Jun 9, 2016
+                  .col-md-4.col-xs-12.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='.5s')
+                    h3 Instagram
+                    .photos
+                      img.img-thambnail(src='imgs/instagram/img1.jpg' alt='')
+                      img.img-thambnail(src='imgs/instagram/img2.jpg' alt='')
+                      img.img-thambnail(src='imgs/instagram/img3.jpg' alt='')
+                      img.img-thambnail(src='imgs/instagram/img4.jpg' alt='')
+                      img.img-thambnail(src='imgs/instagram/img5.jpg' alt='')
+                      img.img-thambnail(src='imgs/instagram/img6.jpg' alt='')
+                      img.img-thambnail(src='imgs/instagram/img7.jpg' alt='')
+                      img.img-thambnail(src='imgs/instagram/img8.jpg' alt='')
+                      img.img-thambnail(src='imgs/instagram/img9.jpg' alt='')
+                // End Of Row
+              // End Of Container
+            // End Of Footer
+            // Start End Section
+            .end.text-center
+              .container
+                .row
+                  p.wow.fadeInUp(data-wow-duration='1s' data-wow-delay='0s') &copy; 2019 MOGO By: M.Zayn
+            // End End
+            // Start Loading Section
+            section.loading
+              .box
+
+            //  h1(class="wow bounceIn", 
+            //     data-wow-duration="5s",
+            //     data-wow-delay="1s",
+            //     data-wow-offset="100",
+            //     data-wow-iteration="3") hay
+            
+            
+script(src="http://code.jquery.com/jquery-1.12.4.min.js", integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=", crossorigin="anonymous")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js", integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1", crossorigin="anonymous")
+script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js")
+script(src="js/jquery.countTo.js", type="text/javascript")
+script(src="js/main.js")
